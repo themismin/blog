@@ -1,0 +1,112 @@
+.markdown-preview * {
+    color: #555;
+    font-family: -apple-system-font, 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+    font-size: 15px;
+    /*padding: 0 30px;*/
+}
+
+.markdown-preview p {
+    letter-spacing: 1px !important;
+    line-height: 28px !important;
+    min-height: 1em !important;
+    box-sizing: border-box !important;
+    word-wrap: break-word !important;
+    text-align: left;
+    margin: 0 0 20px 0 !important;
+}
+
+.markdown-preview blockquote {
+    border-left: 10px solid rgba(128, 128, 128, 0.075);
+    background-color: rgba(128, 128, 128, 0.05);
+    padding: 5px 15px !important;
+    margin: 0;
+}
+
+.markdown-preview blockquote p {
+    color: #898989;
+    margin: 0 !important;
+}
+
+.markdown-preview strong {
+    font-weight: 700;
+    color: #bf360c;
+}
+
+.markdown-preview pre {
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    word-wrap: break-word;
+    padding: 12px 13px;
+    font-size: 13px;
+    color: #898989;
+}
+
+.markdown-preview h1,
+.markdown-preview h2,
+.markdown-preview h3,
+.markdown-preview h4,
+.markdown-preview h5,
+.markdown-preview h6 {
+    word-break: break-all !important;
+    margin: 20px 0;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.markdown-preview h1 {
+
+    font-size: 20px !important;
+}
+
+.markdown-preview h2 {
+
+    font-size: 18px !important;
+}
+
+.markdown-preview h3 {
+    font-size: 16px;
+
+}
+
+.markdown-preview h4 {
+    font-size: 15px;
+
+}
+
+.markdown-preview a {
+    color: #4183C4 !important;
+    text-decoration: none !important;
+}
+
+.markdown-preview ul,
+.markdown-preview ol {
+    padding-left: 30px;
+}
+
+.markdown-preview li {
+    line-height: 24px;
+}
+
+.markdown-preview hr {
+    height: 4px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+    border-bottom: 1px solid #ddd;
+}
+
+.markdown-preview pre {
+    background: #f2f2f2 !important;
+    padding: 12px 13px;
+    overflow: auto;
+}
+
+.markdown-preview code {
+    color: #a71d5d;
+    overflow: auto;
+}
